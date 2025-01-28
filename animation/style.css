@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color: khaki;
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: nishtha;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards;*/
+    animation: nishtha 4s linear 1s 2 reverse forwards;
+}
+/*@keyframes nishtha{
+    from{
+        width: 500px;
+        height: 200px;
+     
+    }
+    to{
+        transform: translateX(200px);
+        width: 700px;
+        height: 400px;
+        
+    }
+}*/
+ @keyframes nishtha{
+    0%{
+        top:0;
+        left:0;
+    }
+    100%{
+        top: 0;
+        left: 80%;
+    }
+ }

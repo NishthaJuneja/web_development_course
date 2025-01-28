@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(nature.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.login_page{
+    width: 50%;
+    height: 70%;
+    background-color:#86868652;
+    backdrop-filter: blur(3px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login_details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.password{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+h1{
+    font-size: 80px;
+}
+input[type="text"] , input[type="password"]{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .container{
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+    .login_page{
+        gap: 30px;
+        width:80% ;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .login_details{
+        width: 80%;
+        gap: 20px;
+    }
+    .password{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .container{
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+    .login_page{
+        gap: 30px;
+        width:80% ;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .login_details{
+        width: 80%;
+        gap: 20px;
+    }
+    .password{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        align-items: center;
+        gap: 10px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    .container{
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+    .login_page{
+        gap: 30px;
+        width:80% ;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .login_details{
+        width: 60%;
+        gap: 20px;
+    }
+    .password{
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+    
+
+@media screen and (min-width: 1025px) and (max-width:1200px) {
+    
+}
