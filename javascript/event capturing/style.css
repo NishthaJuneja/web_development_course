@@ -1,0 +1,38 @@
+/* #main_div{
+
+    background-color: antiquewhite;
+}
+
+.child_div{
+    background-color: pink;
+    height:150px ;
+    width: 200px;
+    margin: 30px;
+} */
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.box-1 , .box-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+}
